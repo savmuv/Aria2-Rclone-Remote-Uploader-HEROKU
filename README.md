@@ -2,20 +2,16 @@
 
 ![Aria2Rclone](https://raw.githubusercontent.com/developeranaz/Aria2-Rclone-Remote-Uploader-HEROKU/main/example-imgs/162030099946.jpg)
 
- Still under development Please Report issues to improve this repo.I will try to fix bugs in next update.
-
+Still under development Please Report issues to improve this repo.I will try to fix bugs in next update.
 
 Aria2c download url & magnet upload remotely to rclone Clouds.
 upload files remotely from url
 
-Help me fixing readme.md 
-
-## This repo still need Bugfix Follow me V1.10 stable coming soon..
 Heroku oneclick / Rapid deploy method available
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Aria2-Rclone-Remote-Uploader-HEROKU)
 
-###### Star my Repository & Support me
+Star my Repository & Support me
 
 ## Feel free to post Any [Issues](https://github.com/developeranaz/Aria2-Rclone-Remote-Uploader-HEROKU/issues) And share your ideas , Posting issues would help to improve this repo
 
@@ -40,6 +36,7 @@ Heroku oneclick / Rapid deploy method available
 
 
 # Features 
+ * Torrent uploads fixed 
  * Multi threat download upto x12
  * Upload & Download at Maximum Speed
  * Simultanious uploads to different remotes.
@@ -49,37 +46,84 @@ Heroku oneclick / Rapid deploy method available
  * No heroku Bans like Aria2ng-heroku.
  * Safe and secure
  * Downloads High seeded torrents.
- * For Torrent uploads use beta  [![Deploy](https://raw.githubusercontent.com/developeranaz/Aria2-Rclone-Remote-Uploader-HEROKU/main/example-imgs/heroku.svg)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Aria2-Rclone-URL-Uploader-HEROKU-Beta) and this beta may be unstable with some new bugs 
 
-# Known issues
- * Torrent File upload not available
- * magnet / torrent may not upload automatically
- * magnet links stucks at seeding after downloaded.
- * Low seeded Torrents may take long time,It affects free dyno.
+
 ###### Use [seedr.cc](https://seedr.cc) to upload torrents if number of seeds is low/low speed, and upload directlink to Aria2Rclone.
 # screenshots
-![demo](https://raw.githubusercontent.com/developeranaz/Aria2-Rclone-Remote-Uploader-HEROKU/main/example-imgs/Screenshot_20210513-105725.png)
+![demo](https://raw.githubusercontent.com/developeranaz/URL-Magnet-Cloud-Uploader-Heroku/main/example-imgs/Screenshot%202021-10-16%20180051.png)
 
 
 ![demo0](https://raw.githubusercontent.com/developeranaz/Aria2-Rclone-Remote-Uploader-HEROKU/main/example-imgs/Screenshot_20210513-105759.png)
 
 
-![demo1](https://raw.githubusercontent.com/developeranaz/Aria2-Rclone-Remote-Uploader-HEROKU/main/example-imgs/Screenshot_20210513-105907.png)
+![demo1](https://raw.githubusercontent.com/developeranaz/URL-Magnet-Cloud-Uploader-Heroku/main/example-imgs/Screenshot%202021-10-16%20180853.png)
 
 This repo is under development
 
 # What's New
-* rclone.conf removed from webpage and fused to heroku
-* No cloudname field .It just finds your cloudnames and adds selector widget.
-* Simultanious upload support available
-* Improved UI
-* Torrent supports but no auto uploads
+* Torrent uploads fixed
+
+## Supported Storages
+
+  * 1Fichier [:page_facing_up:](https://rclone.org/fichier/)
+  * Alibaba Cloud (Aliyun) Object Storage System (OSS) [:page_facing_up:](https://rclone.org/s3/#alibaba-oss)
+  * Amazon Drive [:page_facing_up:](https://rclone.org/amazonclouddrive/) ([See note](https://rclone.org/amazonclouddrive/#status))
+  * Amazon S3 [:page_facing_up:](https://rclone.org/s3/)
+  * Backblaze B2 [:page_facing_up:](https://rclone.org/b2/)
+  * Box [:page_facing_up:](https://rclone.org/box/)
+  * Ceph [:page_facing_up:](https://rclone.org/s3/#ceph)
+  * Citrix ShareFile [:page_facing_up:](https://rclone.org/sharefile/)
+  * DigitalOcean Spaces [:page_facing_up:](https://rclone.org/s3/#digitalocean-spaces)
+  * Dreamhost [:page_facing_up:](https://rclone.org/s3/#dreamhost)
+  * Dropbox [:page_facing_up:](https://rclone.org/dropbox/)
+  * Enterprise File Fabric [:page_facing_up:](https://rclone.org/filefabric/)
+  * FTP [:page_facing_up:](https://rclone.org/ftp/)
+  * GetSky [:page_facing_up:](https://rclone.org/jottacloud/)
+  * Google Cloud Storage [:page_facing_up:](https://rclone.org/googlecloudstorage/)
+  * Google Drive [:page_facing_up:](https://rclone.org/drive/)
+  * Google Photos [:page_facing_up:](https://rclone.org/googlephotos/)
+  * HDFS (Hadoop Distributed Filesystem) [:page_facing_up:](https://rclone.org/hdfs/)
+  * HTTP [:page_facing_up:](https://rclone.org/http/)
+  * Hubic [:page_facing_up:](https://rclone.org/hubic/)
+  * Jottacloud [:page_facing_up:](https://rclone.org/jottacloud/)
+  * IBM COS S3 [:page_facing_up:](https://rclone.org/s3/#ibm-cos-s3)
+  * Koofr [:page_facing_up:](https://rclone.org/koofr/)
+  * Mail.ru Cloud [:page_facing_up:](https://rclone.org/mailru/)
+  * Memset Memstore [:page_facing_up:](https://rclone.org/swift/)
+  * Mega [:page_facing_up:](https://rclone.org/mega/)
+  * Memory [:page_facing_up:](https://rclone.org/memory/)
+  * Microsoft Azure Blob Storage [:page_facing_up:](https://rclone.org/azureblob/)
+  * Microsoft OneDrive [:page_facing_up:](https://rclone.org/onedrive/)
+  * Minio [:page_facing_up:](https://rclone.org/s3/#minio)
+  * Nextcloud [:page_facing_up:](https://rclone.org/webdav/#nextcloud)
+  * OVH [:page_facing_up:](https://rclone.org/swift/)
+  * <del>OpenDrive</del> [:page_facing_up:](https://rclone.org/opendrive/)
+  * OpenStack Swift [:page_facing_up:](https://rclone.org/swift/)
+  * Oracle Cloud Storage [:page_facing_up:](https://rclone.org/swift/)
+  * ownCloud [:page_facing_up:](https://rclone.org/webdav/#owncloud)
+  * pCloud [:page_facing_up:](https://rclone.org/pcloud/)
+  * premiumize.me [:page_facing_up:](https://rclone.org/premiumizeme/)
+  * put.io [:page_facing_up:](https://rclone.org/putio/)
+  * QingStor [:page_facing_up:](https://rclone.org/qingstor/)
+  * Rackspace Cloud Files [:page_facing_up:](https://rclone.org/swift/)
+  * Scaleway [:page_facing_up:](https://rclone.org/s3/#scaleway)
+  * Seafile [:page_facing_up:](https://rclone.org/seafile/)
+  * SFTP [:page_facing_up:](https://rclone.org/sftp/)
+  * StackPath [:page_facing_up:](https://rclone.org/s3/#stackpath)
+  * SugarSync [:page_facing_up:](https://rclone.org/sugarsync/)
+  * Tardigrade [:page_facing_up:](https://rclone.org/tardigrade/)
+  * Tencent Cloud Object Storage (COS) [:page_facing_up:](https://rclone.org/s3/#tencent-cos)
+  * Wasabi [:page_facing_up:](https://rclone.org/s3/#wasabi)
+  * WebDAV [:page_facing_up:](https://rclone.org/webdav/)
+  * Yandex Disk [:page_facing_up:](https://rclone.org/yandex/)
+  * Zoho WorkDrive [:page_facing_up:](https://rclone.org/zoho/)
+
 # NOTICE FOR TORRENT
-* FOR TORRENT UPLOADS USE [BETA-VERSION](https://github.com/developeranaz/Aria2-Rclone-URL-Uploader-HEROKU-Beta) Beta may be unstable and please don't use copyrighted/illegal torrents
-## Follow me V1.10 stable coming soon..
-# Upcoming Updates
-* Torrent Full support - Torrent auto upload.
-* Seperating torrent & Direct Url with selector button
+* please don't use copyrighted/illegal torrents
+
+
 
 ##### Donate me BTC: 1J48LksQNiASuj48nwYATXdFzQSwdrnx7c
+
+Thanks to rclone & aria2
 
